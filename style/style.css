@@ -936,7 +936,7 @@ body .transparent-header-container {
 
 .transparent-header-container .header-top-bar-container,
 .transparent-header-container .row.gray {
-    background: url(../images/1.jpg);
+    background: url(../images/Calc.jpg);
     background-size: cover;
     object-fit: cover;
 }
@@ -2947,16 +2947,16 @@ body .background-6 {
 }
 
 .parallax-1 {
-    background-image: url('../images/imporant-section.jpg');
+    background-image: url('../images/parallax-11.jpg');
 }
 
 .parallax.parallax-2 {
     background-attachment: fixed;
-    background-image: url('../images/5.jpg');
+    background-image: url('../images/parallax-22.jpg');
 }
 
 .parallax-3 {
-    background-image: url('../images/5.jpg');
+    background-image: url('../images/parallax-22.jpg');
 }
 
 .parallax-4 {

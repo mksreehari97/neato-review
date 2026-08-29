@@ -35,27 +35,13 @@
             <div class="header-top-bar">
                 <ul class="contact-details clearfix">
                     <li class="template-location">
-                        Oshawa
+                        49 Kenneth Ave, Oshawa, ON
                     </li>
                     <li class="template-mobile">
                         <a href="tel:+19059225633">+1 905 922 5633</a>
                     </li>
                 </ul>
                 <ul class="social-icons">
-                    <li class="show-on-mobiles">
-                        <a class="template-search" href="#" title="Search"></a>
-                        <form class="search">
-                            <input type="text" name="s" placeholder="Type and hit enter..." value="Type and hit enter..." class="search-input hint">
-                            <fieldset class="search-submit-container">
-                                <span class="template-search"></span>
-                                <input type="submit" class="search-submit" value="">
-                            </fieldset>
-                            <input type="hidden" name="page" value="search">
-                        </form>
-                    </li>
-                    <li class="show-on-mobiles">
-                        <a href="#" class="template-cart"><span class="cart-items-number">2<span class="cart-items-number-arrow"></span></span></a>
-                    </li>
                     <li>
                         <a target="_blank" href="office@neatocleaning.ca" class="social-email" title="email"></a>
                     </li>
@@ -70,135 +56,84 @@
             <a href="#" class="header-toggle template-arrow-vertical-3"></a>
         </div>
         <div class="header-container sticky sticky-responsive">
-            <div class="header clearfix">
-                <div class="menu-container first-menu clearfix">
+            <div class="header clearfix" style="justify-content: space-between;">
+
+                <!-- 1. LOGO (On the far left) -->
+                <div class="logo" style="flex: 0 0 auto; text-align: left;">
+                    <h1>
+                        <a href="index.html" title="Neato">
+                            <img src="images/logo-neato.png" class="secondary-logo" alt="logo">
+                            <img src="images/logo-neato.png" class="primary-logo" alt="logo">
+                        </a>
+                    </h1>
+                    <div class="logo-clone">
+                        <h1>
+                            <a href="index.html" title="Neato">
+                                <img src="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                <img src="images/logo-neato.png" class="primary-logo" alt="logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+                <!-- 2. MAIN MENU (On the far right) -->
+                <div class="menu-container clearfix">
+                    <!-- Desktop Menu -->
                     <nav>
                         <ul class="sf-menu">
+                            <li><a href="index.html" title="Home">HOME</a></li>
+                            <li><a href="service_calculator.html" title="Calculator">CALCULATOR</a></li>
                             <li>
-                                <a href="index.html" title="Home">
-											HOME
-										</a>
-                            </li>
-                            <li>
-                                <a href="service_calculator.html" title="Calculator">
-											CALCULATOR
-										</a>
-                            </li>
-                            <li>
-                                <a href="services.html" title="Services">
-											SERVICES
-										</a>
+                                <a href="services.html" title="Services">SERVICES</a>
                                 <ul>
-                                    <li>
-                                        <a href="service_house_cleaning.html" title="Standard Cleaning">
-													The Standard Cleaning
-												</a>
-                                    </li>
-                                    <li>
-                                        <a href="service_deep_clean.html" title="Deep Clean">
-													The Deep Clean
-												</a>
-                                    </li>
-                                    <li>
-                                        <a href="service_move_in_out.html" title="Move-In/Move-out">
-													The Move-In/Move-out Clean
-												</a>
-                                    </li>
+                                    <li><a href="service_standard_cleaning.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                                    <li><a href="service_deep_clean.html" title="Deep Clean">The Deep Clean</a></li>
+                                    <li><a href="service_move_in_out.html" title="Move-In/Move-out">The Move-In/Move-out Clean</a></li>
+                                    <li><a href="service_commercial.html" title="Move-In/Move-out">Commercial Clean</a></li>
                                 </ul>
                             </li>
+                            <li><a href="about.html" title="About">ABOUT</a></li>
+                            <li class="left-flyout"><a href="contact.html" title="Contact">CONTACT</a></li>
                         </ul>
                     </nav>
+
+                    <!-- Mobile Menu (Hidden on desktop automatically) -->
                     <div class="mobile-menu-container">
                         <nav>
                             <ul class="mobile-menu collapsible-mobile-submenus">
                                 <li><a class="template-arrow-vertical-3" href="#">&nbsp;</a></li>
-                                <li class="selected">
-                                    <a href="index.html" title="Home">
-												HOME
-											</a>
-                                </li>
+                                <li class="selected"><a href="index.html" title="Home">HOME</a></li>
                                 <li>
-                                    <a href="about.html" title="ABOUT">
-												ABOUT
-											</a>
+                                    <a href="about.html" title="ABOUT">ABOUT</a>
                                     <a href="#" class="template-arrow-menu"></a>
                                 </li>
+                                <li><a href="service_calculator.html" title="Calculator">CALCULATOR</a></li>
                                 <li>
-                                    <a href="service_calculator.html" title="Calculator">
-												CALCULATOR
-											</a>
-                                </li>
-                                <li>
-                                    <a href="services.html" title="Services">
-												SERVICES
-											</a>
+                                    <a href="services.html" title="Services">SERVICES</a>
                                     <a href="#" class="template-arrow-menu"></a>
                                     <ul>
-                                        <li>
-                                            <a href="service_house_cleaning.html" title="Standard Cleaning">
-													The Standard Cleaning
-												</a>
-                                        </li>
-                                        <li>
-                                            <a href="service_deep_clean.html" title="Deep Clean">
-													The Deep Clean
-												</a>
-                                        </li>
-                                        <li>
-                                            <a href="service_move_in_out.html" title="Move-In/Move-out">
-													The Move-In/Move-out Clean
-												</a>
-                                        </li>
+                                        <li><a href="service_standard_cleaning.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                                        <li><a href="service_deep_clean.html" title="Deep Clean">The Deep Clean</a></li>
+                                        <li><a href="service_move_in_out.html" title="Move-In/Move-out">The Move-In/Move-out Clean</a></li>
+                                        <li><a href="service_commercial.html" title="Move-In/Move-out">Commercial Clean</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact_2.html" title="Contact">
-												CONTACT
-											</a>
+                                    <a href="contact.html" title="Contact">CONTACT</a>
                                     <a href="#" class="template-arrow-menu"></a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <div class="logo">
-                    <h1>
-                        <a href="index.html" title="Neato">
-                            <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
-                            <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
-                        </a>
-                    </h1>
-                    <div class="logo-clone">
-                        <h1>
-                            <a href="index.html" title="Neato">
-                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
-                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
+
+                <!-- 3. MOBILE HAMBURGER ICON -->
                 <a href="#" class="mobile-menu-switch">
                     <span class="line"></span>
                     <span class="line"></span>
                     <span class="line"></span>
                     <span class="line"></span>
                 </a>
-                <div class="menu-container clearfix second-menu">
-                    <nav>
-                        <ul class="sf-menu">
-                            <li>
-                                <a href="about.html" title="About">
-											ABOUT
-										</a>
-                            </li>
-                            <li class="left-flyout">
-                                <a href="contact.html" title="Contact">
-											CONTACT
-									</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
             </div>
         </div>
         <div class="theme-page">
@@ -230,19 +165,19 @@
                 <div class="row page-margin-top-section">
                     <div class="column column-1-2">
                         <div class="row">
-                            <a href="images/333.jpg" class="prettyPhoto cm-preload" title="House Cleaning">
-                                <img src='images/333.jpg' alt='img'>
+                            <a href="images/About_us_1.jpg" class="prettyPhoto cm-preload" title="House Cleaning">
+                                <img src='images/About_us_1.jpg' alt='img'>
                             </a>
                         </div>
                         <div class="row margin-top-30">
                             <div class="column column-1-2">
-                                <a href="images/111.jpg" class="prettyPhoto cm-preload" title="Clean">
-                                    <img src='images/111.jpg' alt='img'>
+                                <a href="images/About_us_2.jpg" class="prettyPhoto cm-preload" title="Clean">
+                                    <img src='images/About_us_2.jpg' alt='img'>
                                 </a>
                             </div>
                             <div class="column column-1-2">
-                                <a href="images/222.jpg" class="prettyPhoto cm-preload" title="After Renovation Cleaning">
-                                    <img src='images/222.jpg' alt='img'>
+                                <a href="images/About_us_3.jpg" class="prettyPhoto cm-preload" title="After Renovation Cleaning">
+                                    <img src='images/About_us_3.jpg' alt='img'>
                                 </a>
                             </div>
                         </div>
@@ -263,8 +198,8 @@
                         <ul class="services-list services-icons clearfix">
                             <li class="column column-1-3">
                                 <span class="service-icon big features-credit-card tick"></span>
-                                <h4>EASY PAYMENTS</h4>
-                                <p>Easy payments via paypal or via credit card payment processing service.</p>
+                                <h4>NO HIDDEN CHARGES</h4>
+                                <p>Use our cost calculator for final pricing—no hidden charges</p>
                             </li>
                             <li class="column column-1-3">
                                 <span class="service-icon big features-pet tick"></span>
@@ -340,17 +275,17 @@
                                     <a class="more" href="service_calculator.html" title="Learn more">Learn more</a>
                                 </div>
                             </li>
-                            <li class="background background-6 overlay margin-top-30">
-                                <a href="service_calculator.html" title="Special Cleaning Offer">
-                                    <!--<span class="service-icon features-bag"></span>-->
-                                </a>
+                            <!--<li class="background background-6 overlay margin-top-30">
+                                <a href="service_calculator.html" title="Special Cleaning Offer">-->
+                            <!--<span class="service-icon features-bag"></span>-->
+                            <!--</a>
                                 <h4>
                                     <a href="service_calculator.html" title="Special Cleaning Offer"></a>
                                 </h4>
                                 <p class="description"></p>
-                                <div class="align-center margin-top-40 padding-bottom-16">
-                                    <!--<a class="more" href="service_calculator.html" title="Learn more"></a>-->
-                                </div>
+                                <div class="align-center margin-top-40 padding-bottom-16">-->
+                            <!--<a class="more" href="service_calculator.html" title="Learn more"></a>-->
+                            <!--</div>-->
                             </li>
                         </ul>
                     </div>
@@ -467,8 +402,8 @@
                         <div class="column column-1-3">
                             <ul class="contact-details-list">
                                 <li class="features-map">
-                                    <label>ONTARIO</label>
-                                    <p>OSHAWA</p>
+                                    <label>OSHAWA</label>
+                                    <p>49 Kenneth Ave</p>
                                 </li>
                             </ul>
                         </div>
@@ -494,9 +429,10 @@
                         <div class="column column-1-4">
                             <h6>OUR SERVICES</h6>
                             <ul class="list margin-top-31">
-                                <li class="template-arrow-horizontal-2"><a href="service_standard_clean.html" title="Commercial Cleaning">The Standard Cleaning</a></li>
+                                <li class="template-arrow-horizontal-2"><a href="service_standard_clean.html" title="Standard Cleaning">The Standard Cleaning</a></li>
                                 <li class="template-arrow-horizontal-2"><a href="service_deep_clean.html" title="Deep Cleaning">The Deep Cleaning</a></li>
                                 <li class="template-arrow-horizontal-2"><a href="service_move_in_out.html" title="Move In Out Service">Move In/Out Service</a></li>
+                                <li class="template-arrow-horizontal-2"><a href="service_commercial.html" title="Commercial Clean">Commercial Cleaning</a></li>
                             </ul>
                         </div>
                         <div class="column column-1-4">
@@ -515,7 +451,7 @@
                                     <a href="about.html" title="About">About</a>
                                 </li>
                                 <li>
-                                    <a href="contact_2.html" title="contact">Contact</a>
+                                    <a href="contact.html" title="contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -523,7 +459,7 @@
                             <h6>CONTACT INFO</h6>
                             <ul class="contact-data margin-top-20">
                                 <li class="template-location">
-                                    <div class="value">Oshawa, Ontario</div>
+                                    <div class="value">49 Kenneth Ave, Oshawa, ON L1G 5N3</div>
                                 </li>
                                 <li class="template-mobile">
                                     <div class="value"><a href="tel:2507257052">+1 905-922-5633</a></div>

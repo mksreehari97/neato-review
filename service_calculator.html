@@ -36,27 +36,13 @@
                 <div class="header-top-bar">
                     <ul class="contact-details clearfix">
                         <li class="template-location">
-                            Oshawa
+                            49 Kenneth Ave, Oshawa, ON
                         </li>
                         <li class="template-mobile">
                             <a href="tel:+19059225633">+1 905 922 5633</a>
                         </li>
                     </ul>
                     <ul class="social-icons">
-                        <li class="show-on-mobiles">
-                            <a class="template-search" href="#" title="Search"></a>
-                            <form class="search">
-                                <input type="text" name="s" placeholder="Type and hit enter..." value="Type and hit enter..." class="search-input hint">
-                                <fieldset class="search-submit-container">
-                                    <span class="template-search"></span>
-                                    <input type="submit" class="search-submit" value="">
-                                </fieldset>
-                                <input type="hidden" name="page" value="search">
-                            </form>
-                        </li>
-                        <li class="show-on-mobiles">
-                            <a href="#" class="template-cart"><span class="cart-items-number">2<span class="cart-items-number-arrow"></span></span></a>
-                        </li>
                         <li>
                             <a target="_blank" href="office@neatocleaning.ca" class="social-email" title="email"></a>
                         </li>
@@ -71,135 +57,82 @@
                 <a href="#" class="header-toggle template-arrow-vertical-3"></a>
             </div>
             <div class="header-container sticky sticky-responsive">
-                <div class="header clearfix">
-                    <div class="menu-container first-menu clearfix">
-                        <nav>
-                            <ul class="sf-menu">
-                                <li>
-                                    <a href="index.html" title="Home">
-											HOME
-										</a>
-                                </li>
-                                <li>
-                                    <a href="service_calculator.html" title="Calculator">
-											CALCULATOR
-										</a>
-                                </li>
-                                <li>
-                                    <a href="services.html" title="Services">
-											SERVICES
-										</a>
-                                    <ul>
-                                        <li>
-                                            <a href="service_house_cleaning.html" title="Standard Cleaning">
-													The Standard Cleaning
-												</a>
-                                        </li>
-                                        <li>
-                                            <a href="service_deep_clean.html" title="Deep Clean">
-													The Deep Clean
-												</a>
-                                        </li>
-                                        <li>
-                                            <a href="service_move_in_out.html" title="Move-In/Move-out">
-													The Move-In/Move-out Clean
-												</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="mobile-menu-container">
-                            <nav>
-                                <ul class="mobile-menu collapsible-mobile-submenus">
-                                    <li><a class="template-arrow-vertical-3" href="#">&nbsp;</a></li>
-                                    <li class="selected">
-                                        <a href="index.html" title="Home">
-												HOME
-											</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html" title="ABOUT">
-												ABOUT
-											</a>
-                                        <a href="#" class="template-arrow-menu"></a>
-                                    </li>
-                                    <li>
-                                        <a href="service_calculator.html" title="Calculator">
-												CALCULATOR
-											</a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html" title="Services">
-												SERVICES
-											</a>
-                                        <a href="#" class="template-arrow-menu"></a>
-                                        <ul>
-                                            <li>
-                                                <a href="service_house_cleaning.html" title="Standard Cleaning">
-													The Standard Cleaning
-												</a>
-                                            </li>
-                                            <li>
-                                                <a href="service_deep_clean.html" title="Deep Clean">
-													The Deep Clean
-												</a>
-                                            </li>
-                                            <li>
-                                                <a href="service_move_in_out.html" title="Move-In/Move-out">
-													The Move-In/Move-out Clean
-												</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact_2.html" title="Contact">
-												CONTACT
-											</a>
-                                        <a href="#" class="template-arrow-menu"></a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="logo">
+                <div class="header clearfix" style="justify-content: space-between;">
+
+                    <!-- 1. LOGO (On the far left) -->
+                    <div class="logo" style="flex: 0 0 auto; text-align: left;">
                         <h1>
                             <a href="index.html" title="Neato">
-                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
-                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
+                                <img src="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                <img src="images/logo-neato.png" class="primary-logo" alt="logo">
                             </a>
                         </h1>
                         <div class="logo-clone">
                             <h1>
                                 <a href="index.html" title="Neato">
-                                    <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
-                                    <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
+                                    <img src="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                    <img src="images/logo-neato.png" class="primary-logo" alt="logo">
                                 </a>
                             </h1>
                         </div>
                     </div>
+
+                    <!-- 2. MAIN MENU (On the far right) -->
+                    <div class="menu-container clearfix">
+                        <!-- Desktop Menu -->
+                        <nav>
+                            <ul class="sf-menu">
+                                <li><a href="index.html" title="Home">HOME</a></li>
+                                <li><a href="service_calculator.html" title="Calculator">CALCULATOR</a></li>
+                                <li>
+                                    <a href="services.html" title="Services">SERVICES</a>
+                                    <ul>
+                                        <li><a href="service_standard_cleaning.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                                        <li><a href="service_deep_clean.html" title="Deep Clean">The Deep Clean</a></li>
+                                        <li><a href="service_move_in_out.html" title="Move-In/Move-out">The Move-In/Move-out Clean</a></li>
+                                        <li><a href="service_commercial.html" title="Move-In/Move-out">Commercial Clean</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html" title="About">ABOUT</a></li>
+                                <li class="left-flyout"><a href="contact.html" title="Contact">CONTACT</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Mobile Menu (Hidden on desktop automatically) -->
+                        <div class="mobile-menu-container">
+                            <nav>
+                                <ul class="mobile-menu collapsible-mobile-submenus">
+                                    <li><a class="template-arrow-vertical-3" href="#">&nbsp;</a></li>
+                                    <li class="selected"><a href="index.html" title="Home">HOME</a></li>
+                                    <li>
+                                        <a href="about.html" title="ABOUT">ABOUT</a>
+                                    </li>
+                                    <li><a href="service_calculator.html" title="Calculator">CALCULATOR</a></li>
+                                    <li>
+                                        <a href="services.html" title="Services">SERVICES</a>
+                                        <a href="#" class="template-arrow-menu"></a>
+                                        <ul>
+                                            <li><a href="service_standard_cleaning.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                                            <li><a href="service_deep_clean.html" title="Deep Clean">The Deep Clean</a></li>
+                                            <li><a href="service_move_in_out.html" title="Move-In/Move-out">The Move-In/Move-out Clean</a></li>
+                                            <li><a href="service_commercial.html" title="Move-In/Move-out">Commercial Clean</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html" title="Contact">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- 3. MOBILE HAMBURGER ICON -->
                     <a href="#" class="mobile-menu-switch">
                         <span class="line"></span>
                         <span class="line"></span>
                         <span class="line"></span>
                         <span class="line"></span>
                     </a>
-                    <div class="menu-container clearfix second-menu">
-                        <nav>
-                            <ul class="sf-menu">
-                                <li>
-                                    <a href="about.html" title="About">
-											ABOUT
-										</a>
-                                </li>
-                                <li class="left-flyout">
-                                    <a href="contact.html" title="Contact">
-											CONTACT
-									</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
                 </div>
             </div>
             <div class="row gray full-width page-header vertical-align-table">
@@ -232,28 +165,27 @@
             <div class="clearfix">
                 <div class="row full-width gray page-padding-top padding-bottom-100">
                     <div class="row">
-                        <p class="description align-center">Cleanmate comes with cost calculator - a unique tool which allows you to easily create<br>price estimation forms to give your client idea of the cost of your service.</p>
+                        <p class="description align-center">NeatO comes with cost calculator - a unique tool which allows you to easily create<br>price estimation forms to give your client idea of the cost of your service.</p>
                         <h3 class="page-margin-top align-center">Please tell us about your home</h3>
                         <form id="contact-form" class="cost-calculator-container contact-form margin-top-40" method="post" action="contact_form/contact_form.php">
 
-                            <!-- 1. SERVICE TIER (RADIO BUTTONS) -->
+                            <!-- 1. SERVICE TIER (Prices Removed from Labels) -->
                             <div class="row margin-bottom-40">
                                 <h4 class="margin-bottom-20">Choose the service you are looking for:</h4>
-                                <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center; margin-top: 15px; margin-bottom: 40px;">
+                                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 15px; width: 100%; margin-bottom: 20px;">
                                     <label style="display: flex; align-items: center; cursor: pointer; font-size: 16px;">
-                <input type="radio" name="service_choice" value="0.15" class="service-radio" checked style="margin-right: 8px;"> 
-                Standard Clean ($0.15/sq ft)
+                <input type="radio" name="service_choice" value="0.15" class="service-radio" checked style="margin-right: 8px; margin-top: 0;"> 
+                Standard Clean
             </label>
                                     <label style="display: flex; align-items: center; cursor: pointer; font-size: 16px;">
-                <input type="radio" name="service_choice" value="0.25" class="service-radio" style="margin-right: 8px;"> 
-                Deep Clean ($0.25/sq ft)
+                <input type="radio" name="service_choice" value="0.25" class="service-radio" style="margin-right: 8px; margin-top: 0;"> 
+                Deep Clean
             </label>
                                     <label style="display: flex; align-items: center; cursor: pointer; font-size: 16px;">
-                <input type="radio" name="service_choice" value="0.33" class="service-radio" style="margin-right: 8px;"> 
-                Move in/ Move out clean ($0.33/sq ft)
+                <input type="radio" name="service_choice" value="0.33" class="service-radio" style="margin-right: 8px; margin-top: 0;"> 
+                Move in/ Move out clean
             </label>
                                 </div>
-                                <!-- Hidden input for the formula -->
                                 <input type="hidden" id="service-rate" name="service-rate" value="0.15">
                             </div>
 
@@ -262,7 +194,6 @@
                                 <fieldset class="column column-1-2">
                                     <div class="cost-calculator-box clearfix">
                                         <label>Total area to be cleaned in square feet:</label>
-                                        <input type="hidden" name="clean-area-label" value="Total area to be cleaned">
                                         <div class="cost-slider-container">
                                             <input id="clean-area" class="cost-slider-input" name="clean-area" type="number" value="1200">
                                             <div class="cost-slider" data-value="1200" data-step="10" data-min="100" data-max="5000" data-input="clean-area"></div>
@@ -270,7 +201,6 @@
                                     </div>
                                     <div class="cost-calculator-box margin-top-30 clearfix">
                                         <label>Number of bathrooms:</label>
-                                        <input type="hidden" name="bathrooms-label" value="Number of bathrooms">
                                         <div class="cost-slider-container">
                                             <input id="bathrooms" class="cost-slider-input" name="bathrooms" type="number" value="2">
                                             <div class="cost-slider" data-value="2" data-step="1" data-min="0" data-max="10" data-input="bathrooms"></div>
@@ -280,7 +210,6 @@
                                 <fieldset class="column column-1-2">
                                     <div class="cost-calculator-box clearfix">
                                         <label>Number of bedrooms:</label>
-                                        <input type="hidden" name="bedrooms-label" value="Number of bedrooms">
                                         <div class="cost-slider-container">
                                             <input id="bedrooms" class="cost-slider-input" name="bedrooms" type="number" value="4">
                                             <div class="cost-slider" data-value="4" data-step="1" data-min="0" data-max="10" data-input="bedrooms"></div>
@@ -288,7 +217,6 @@
                                     </div>
                                     <div class="cost-calculator-box margin-top-30 clearfix">
                                         <label>Number of living rooms:</label>
-                                        <input type="hidden" name="livingrooms-label" value="Number of living rooms">
                                         <div class="cost-slider-container">
                                             <input id="livingrooms" class="cost-slider-input" name="livingrooms" type="number" value="1">
                                             <div class="cost-slider" data-value="1" data-step="1" data-min="0" data-max="5" data-input="livingrooms"></div>
@@ -302,96 +230,138 @@
                                 <h3 class="align-center">Select your extra services</h3>
                             </div>
 
-                            <!-- Toggles Row 1 -->
+                            <!-- ROW 1: Pets, Fridge, Oven -->
                             <div class="row margin-top-30">
                                 <fieldset class="column column-1-3">
                                     <div class="cost-calculator-box clearfix">
-                                        <label>Pet hair/urine removal ($50)</label>
-                                        <label for="pets" class="cost-calculator-switch radius">
-                    <input type="checkbox" data-value="50" value="0" name="pets" class="cost-slider-input type-checkbox" id="pets">
-                    <span class="cost-calculator-switch-slider"></span>
-                </label>
+                                        <label>Pet hair/urine removal</label>
+                                        <div style="margin-top: 10px;">
+                                            <label for="pets" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" data-value="50" value="0" name="pets" class="cost-slider-input type-checkbox" id="pets">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset class="column column-1-3">
                                     <div class="cost-calculator-box clearfix">
-                                        <label>Clean inside the refrigerator? ($25)</label>
-                                        <label for="refrigerator-clean" class="cost-calculator-switch radius">
-                    <input type="checkbox" data-value="25" value="0" name="refrigerator-clean" class="cost-slider-input type-checkbox" id="refrigerator-clean">
-                    <span class="cost-calculator-switch-slider"></span>
-                </label>
+                                        <label>Clean inside the refrigerator?</label>
+                                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                            <label for="refrigerator-toggle" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" class="sync-toggle" id="refrigerator-toggle">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                            <div class="quantity-counter" style="display: flex; align-items: center; border: 1px solid #ddd; background: #f5f5f5;">
+                                                <button type="button" class="qty-minus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&minus;</button>
+                                                <input type="number" id="refrigerator-clean" class="cost-slider-input qty-input" value="0" min="0" style="width: 40px; text-align: center; border: none; background: #fff; padding: 5px 0; -moz-appearance: textfield;">
+                                                <button type="button" class="qty-plus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&#43;</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset class="column column-1-3">
                                     <div class="cost-calculator-box clearfix">
-                                        <label>Clean inside the oven? ($25)</label>
-                                        <label for="oven-clean" class="cost-calculator-switch radius">
-                    <input type="checkbox" data-value="25" value="0" name="oven-clean" class="cost-slider-input type-checkbox" id="oven-clean">
-                    <span class="cost-calculator-switch-slider"></span>
-                </label>
-                                    </div>
-                                </fieldset>
-                            </div>
-
-                            <!-- Toggles Row 2 -->
-                            <div class="row margin-top-30">
-                                <fieldset class="column column-1-3">
-                                    <div class="cost-calculator-box clearfix">
-                                        <label>Patio/Balcony Clean ($50)</label>
-                                        <label for="patio-clean" class="cost-calculator-switch radius">
-                    <input type="checkbox" data-value="50" value="0" name="patio-clean" class="cost-slider-input type-checkbox" id="patio-clean">
-                    <span class="cost-calculator-switch-slider"></span>
-                </label>
-                                    </div>
-                                </fieldset>
-                                <fieldset class="column column-1-3">
-                                    <div class="cost-calculator-box clearfix">
-                                        <label>Load of Dishes ($25)</label>
-                                        <label for="dishes" class="cost-calculator-switch radius">
-                    <input type="checkbox" data-value="25" value="0" name="dishes" class="cost-slider-input type-checkbox" id="dishes">
-                    <span class="cost-calculator-switch-slider"></span>
-                </label>
-                                    </div>
-                                </fieldset>
-                                <fieldset class="column column-1-3">
-                                    <div class="cost-calculator-box clearfix">
-                                        <label>Interior blinds ($5/each)</label>
-                                        <div class="cost-slider-container">
-                                            <input id="blinds" class="cost-slider-input" name="blinds" type="number" value="0">
-                                            <div class="cost-slider" data-value="0" data-step="1" data-min="0" data-max="30" data-input="blinds"></div>
+                                        <label>Clean inside the oven?</label>
+                                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                            <label for="oven-toggle" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" class="sync-toggle" id="oven-toggle">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                            <div class="quantity-counter" style="display: flex; align-items: center; border: 1px solid #ddd; background: #f5f5f5;">
+                                                <button type="button" class="qty-minus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&minus;</button>
+                                                <input type="number" id="oven-clean" class="cost-slider-input qty-input" value="0" min="0" style="width: 40px; text-align: center; border: none; background: #fff; padding: 5px 0;">
+                                                <button type="button" class="qty-plus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&#43;</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </fieldset>
                             </div>
 
-                            <!-- Sliders Row 3 -->
+                            <!-- ROW 2: Patio, Dishes, Blinds -->
                             <div class="row margin-top-30">
-                                <fieldset class="column column-1-2">
+                                <fieldset class="column column-1-3">
                                     <div class="cost-calculator-box clearfix">
-                                        <label>Laundry ($25/load)</label>
-                                        <div class="cost-slider-container">
-                                            <input id="laundry" class="cost-slider-input" name="laundry" type="number" value="0">
-                                            <div class="cost-slider" data-value="0" data-step="1" data-min="0" data-max="10" data-input="laundry"></div>
+                                        <label>Patio/Balcony Clean</label>
+                                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                            <label for="patio-toggle" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" class="sync-toggle" id="patio-toggle">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                            <div class="quantity-counter" style="display: flex; align-items: center; border: 1px solid #ddd; background: #f5f5f5;">
+                                                <button type="button" class="qty-minus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&minus;</button>
+                                                <input type="number" id="patio-clean" class="cost-slider-input qty-input" value="0" min="0" style="width: 40px; text-align: center; border: none; background: #fff; padding: 5px 0;">
+                                                <button type="button" class="qty-plus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&#43;</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </fieldset>
-                                <fieldset class="column column-1-2">
+                                <fieldset class="column column-1-3">
                                     <div class="cost-calculator-box clearfix">
-                                        <label>Windows ($6/each)</label>
-                                        <div class="cost-slider-container">
-                                            <input id="windows" class="cost-slider-input" name="windows" type="number" value="0">
-                                            <div class="cost-slider" data-value="0" data-step="1" data-min="0" data-max="30" data-input="windows"></div>
+                                        <label>Load of Dishes</label>
+                                        <div style="margin-top: 10px;">
+                                            <label for="dishes" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" data-value="25" value="0" name="dishes" class="cost-slider-input type-checkbox" id="dishes">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="column column-1-3">
+                                    <div class="cost-calculator-box clearfix">
+                                        <label>Interior blinds</label>
+                                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                            <label for="blinds-toggle" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" class="sync-toggle" id="blinds-toggle">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                            <div class="quantity-counter" style="display: flex; align-items: center; border: 1px solid #ddd; background: #f5f5f5;">
+                                                <button type="button" class="qty-minus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&minus;</button>
+                                                <input type="number" id="blinds" class="cost-slider-input qty-input" value="0" min="0" style="width: 40px; text-align: center; border: none; background: #fff; padding: 5px 0;">
+                                                <button type="button" class="qty-plus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&#43;</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </fieldset>
                             </div>
 
-                            <!-- Additional Rooms & Frequency -->
+                            <!-- ROW 3: Laundry, Windows, Additional Rooms -->
                             <div class="row margin-top-30">
-                                <fieldset class="column column-1-2">
-                                    <div class="cost-calculator-box margin-top-30 clearfix">
-                                        <label>Additional rooms ($50/each):</label>
-                                        <ul class="checkboxes-list">
+                                <fieldset class="column column-1-3">
+                                    <div class="cost-calculator-box clearfix">
+                                        <label>Laundry</label>
+                                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                            <label for="laundry-toggle" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" class="sync-toggle" id="laundry-toggle">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                            <div class="quantity-counter" style="display: flex; align-items: center; border: 1px solid #ddd; background: #f5f5f5;">
+                                                <button type="button" class="qty-minus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&minus;</button>
+                                                <input type="number" id="laundry" class="cost-slider-input qty-input" value="0" min="0" style="width: 40px; text-align: center; border: none; background: #fff; padding: 5px 0;">
+                                                <button type="button" class="qty-plus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&#43;</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="column column-1-3">
+                                    <div class="cost-calculator-box clearfix">
+                                        <label>Windows</label>
+                                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+                                            <label for="windows-toggle" class="cost-calculator-switch radius" style="margin:0;">
+                        <input type="checkbox" class="sync-toggle" id="windows-toggle">
+                        <span class="cost-calculator-switch-slider"></span>
+                    </label>
+                                            <div class="quantity-counter" style="display: flex; align-items: center; border: 1px solid #ddd; background: #f5f5f5;">
+                                                <button type="button" class="qty-minus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&minus;</button>
+                                                <input type="number" id="windows" class="cost-slider-input qty-input" value="0" min="0" style="width: 40px; text-align: center; border: none; background: #fff; padding: 5px 0;">
+                                                <button type="button" class="qty-plus" style="border: none; background: transparent; padding: 5px 10px; font-size: 16px; cursor: pointer;">&#43;</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="column column-1-3">
+                                    <div class="cost-calculator-box clearfix">
+                                        <label>Additional rooms:</label>
+                                        <ul class="checkboxes-list" style="margin-top: 10px;">
                                             <li>
                                                 <input type="checkbox" data-value="50" value="0" name="gym" class="cost-slider-input type-checkbox" id="gym">
                                                 <label for="gym" class="checkbox-label template-bullet">Gym</label>
@@ -403,8 +373,12 @@
                                         </ul>
                                     </div>
                                 </fieldset>
+                            </div>
+
+                            <!-- Frequency Selection -->
+                            <div class="row margin-top-30">
                                 <fieldset class="column column-1-2">
-                                    <div class="cost-calculator-box margin-top-30 clearfix">
+                                    <div class="cost-calculator-box clearfix">
                                         <label>Cleaning frequency:</label>
                                         <select name="cleaning-frequency" id="cleaning-frequency" class="cost-dropdown">
                     <option value="1" selected="selected">One Time Service</option>
@@ -423,7 +397,6 @@
                                 <input type="hidden" id="final-service-cost-hidden" name="final-service-cost-hidden">
                                 <p class="page-margin-top">Enter your contact details. We will give you a call to finish up.</p>
                             </div>
-
                             <!-- Contact Details -->
                             <div class="row flex-box gray margin-top-20">
                                 <fieldset class="column column-1-2">
@@ -464,8 +437,8 @@
                 <div class="column column-1-3">
                     <ul class="contact-details-list">
                         <li class="features-map">
-                            <label>ONTARIO</label>
-                            <p>OSHAWA</p>
+                            <label>OSHAWA</label>
+                            <p>49 Kenneth Ave</p>
                         </li>
                     </ul>
                 </div>
@@ -494,6 +467,7 @@
                         <li class="template-arrow-horizontal-2"><a href="service_standard_clean.html" title="Commercial Cleaning">The Standard Cleaning</a></li>
                         <li class="template-arrow-horizontal-2"><a href="service_deep_clean.html" title="Deep Cleaning">The Deep Cleaning</a></li>
                         <li class="template-arrow-horizontal-2"><a href="service_move_in_out.html" title="Move In Out Service">Move In/Out Service</a></li>
+                        <li class="template-arrow-horizontal-2"><a href="service_commercial.html" title="Commercial Clean">Commercial Cleaning</a></li>
                     </ul>
                 </div>
                 <div class="column column-1-4">
@@ -512,7 +486,7 @@
                             <a href="about.html" title="About">About</a>
                         </li>
                         <li>
-                            <a href="contact_2.html" title="contact">Contact</a>
+                            <a href="contact.html" title="contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -520,7 +494,7 @@
                     <h6>CONTACT INFO</h6>
                     <ul class="contact-data margin-top-20">
                         <li class="template-location">
-                            <div class="value">Oshawa, Ontario</div>
+                            <div class="value">49 Kenneth Ave, Oshawa, ON L1G 5N3</div>
                         </li>
                         <li class="template-mobile">
                             <div class="value"><a href="tel:2507257052">+1 905-922-5633</a></div>

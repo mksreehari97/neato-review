@@ -238,13 +238,56 @@ jQuery(document).ready(function($) {
 
     // --- CUSTOM CLIENT MATH FORMULA ---
 
+    // --- CUSTOM CLIENT MATH FORMULA & COUNTERS ---
+
+    // 1. Make the Minus/Plus Buttons Work
+    $(".qty-plus").on("click", function(e) {
+        e.preventDefault();
+        var input = $(this).siblings(".qty-input");
+        var val = parseInt(input.val()) || 0;
+        input.val(val + 1).trigger("change");
+    });
+
+    $(".qty-minus").on("click", function(e) {
+        e.preventDefault();
+        var input = $(this).siblings(".qty-input");
+        var val = parseInt(input.val()) || 0;
+        if (val > 0) {
+            input.val(val - 1).trigger("change");
+        }
+    });
+
+    // 2. Automatically flip the toggle "ON" if a number is added
+    $(".qty-input").on("change keyup input", function() {
+        var val = parseInt($(this).val()) || 0;
+        var toggle = $(this).closest(".cost-calculator-box").find(".sync-toggle");
+        if (toggle.length) {
+            toggle.prop("checked", val > 0);
+        }
+        $(".cost-calculator-price").costCalculator("calculate");
+    });
+
+    // 3. Automatically set counter to "1" if the toggle is clicked "ON"
+    $(".sync-toggle").on("change", function() {
+        var input = $(this).closest(".cost-calculator-box").find(".qty-input");
+        if ($(this).is(":checked")) {
+            if (parseInt(input.val()) === 0) {
+                input.val(1).trigger("change");
+            }
+        } else {
+            input.val(0).trigger("change");
+        }
+    });
+
+    // 4. Update the base rate when clicking radio buttons
     $(".service-radio").on("change", function() {
         $("#service-rate").val($(this).val());
         $(".cost-calculator-price").costCalculator("calculate");
     });
 
+    // 5. The Final Pricing Engine (Multiplies the counters by the price)
     $("#final-service-cost").costCalculator({
-        formula: "service-rate*clean-area+pets+refrigerator-clean+oven-clean+patio-clean+dishes+laundry*25+windows*6+blinds*5+gym+garage",
+        formula: "service-rate*clean-area+pets+refrigerator-clean*25+oven-clean*25+patio-clean*50+dishes+laundry*25+windows*6+blinds*5+gym+garage",
         currency: "$",
         currencyPosition: "before",
         thousandthSeparator: ",",

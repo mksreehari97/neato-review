@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>CleanMate - Cleaning Template</title>
+    <title>Move-in/Move-out Cleaning - Service</title>
     <!--meta-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2" />
@@ -35,27 +35,13 @@
             <div class="header-top-bar">
                 <ul class="contact-details clearfix">
                     <li class="template-location">
-                        Oshawa
+                        49 Kenneth Ave, Oshawa, ON
                     </li>
                     <li class="template-mobile">
                         <a href="tel:+19059225633">+1 905 922 5633</a>
                     </li>
                 </ul>
                 <ul class="social-icons">
-                    <li class="show-on-mobiles">
-                        <a class="template-search" href="#" title="Search"></a>
-                        <form class="search">
-                            <input type="text" name="s" placeholder="Type and hit enter..." value="Type and hit enter..." class="search-input hint">
-                            <fieldset class="search-submit-container">
-                                <span class="template-search"></span>
-                                <input type="submit" class="search-submit" value="">
-                            </fieldset>
-                            <input type="hidden" name="page" value="search">
-                        </form>
-                    </li>
-                    <li class="show-on-mobiles">
-                        <a href="#" class="template-cart"><span class="cart-items-number">2<span class="cart-items-number-arrow"></span></span></a>
-                    </li>
                     <li>
                         <a target="_blank" href="office@neatocleaning.ca" class="social-email" title="email"></a>
                     </li>
@@ -70,69 +56,229 @@
             <a href="#" class="header-toggle template-arrow-vertical-3"></a>
         </div>
         <div class="header-container sticky sticky-responsive">
-            <div class="header clearfix">
-                <div class="menu-container first-menu clearfix">
+            <div class="header clearfix" style="justify-content: space-between;">
+
+                <!-- 1. LOGO (On the far left) -->
+                <div class="logo" style="flex: 0 0 auto; text-align: left;">
+                    <h1>
+                        <a href="index.html" title="Neato">
+                            <img src="images/logo-neato.png" class="secondary-logo" alt="logo">
+                            <img src="images/logo-neato.png" class="primary-logo" alt="logo">
+                        </a>
+                    </h1>
+                    <div class="logo-clone">
+                        <h1>
+                            <a href="index.html" title="Neato">
+                                <img src="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                <img src="images/logo-neato.png" class="primary-logo" alt="logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+                <!-- 2. MAIN MENU (On the far right) -->
+                <div class="menu-container clearfix">
+                    <!-- Desktop Menu -->
                     <nav>
                         <ul class="sf-menu">
+                            <li><a href="index.html" title="Home">HOME</a></li>
+                            <li><a href="service_calculator.html" title="Calculator">CALCULATOR</a></li>
                             <li>
-                                <a href="index.html" title="Home">
-											HOME
-										</a>
-                            </li>
-                            <li>
-                                <a href="service_calculator.html" title="Calculator">
-											CALCULATOR
-										</a>
-                            </li>
-                            <li>
-                                <a href="services.html" title="Services">
-											SERVICES
-										</a>
+                                <a href="service_standard_cleaning.html" title="Services">SERVICES</a>
                                 <ul>
-                                    <li>
-                                        <a href="service_house_cleaning.html" title="Standard Cleaning">
-													The Standard Cleaning
-												</a>
-                                    </li>
-                                    <li>
-                                        <a href="service_deep_clean.html" title="Deep Clean">
-													The Deep Clean
-												</a>
-                                    </li>
-                                    <li>
-                                        <a href="service_move_in_out.html" title="Move-In/Move-out">
-													The Move-In/Move-out Clean
-												</a>
-                                    </li>
+                                    <li><a href="service_standard_cleaning.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                                    <li><a href="service_deep_clean.html" title="Deep Clean">The Deep Clean</a></li>
+                                    <li><a href="service_move_in_out.html" title="Move-In/Move-out">The Move-In/Move-out Clean</a></li>
+                                    <li><a href="service_commercial.html" title="Move-In/Move-out">Commercial Clean</a></li>
                                 </ul>
                             </li>
+                            <li><a href="about.html" title="About">ABOUT</a></li>
+                            <li class="left-flyout"><a href="contact.html" title="Contact">CONTACT</a></li>
                         </ul>
                     </nav>
+
+                    <!-- Mobile Menu (Hidden on desktop automatically) -->
                     <div class="mobile-menu-container">
                         <nav>
                             <ul class="mobile-menu collapsible-mobile-submenus">
                                 <li><a class="template-arrow-vertical-3" href="#">&nbsp;</a></li>
-                                <li class="selected">
-                                    <a href="index.html" title="Home">
-												HOME
-											</a>
+                                <li class="selected"><a href="index.html" title="Home">HOME</a></li>
+                                <li>
+                                    <a href="about.html" title="ABOUT">ABOUT</a>
+                                </li>
+                                <li><a href="service_calculator.html" title="Calculator">CALCULATOR</a></li>
+                                <li>
+                                    <a href="service_standard_cleaning.html" title="Services">SERVICES</a>
+                                    <a href="#" class="template-arrow-menu"></a>
+                                    <ul>
+                                        <li><a href="service_standard_cleaning.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                                        <li><a href="service_deep_clean.html" title="Deep Clean">The Deep Clean</a></li>
+                                        <li><a href="service_move_in_out.html" title="Move-In/Move-out">The Move-In/Move-out Clean</a></li>
+                                        <li><a href="service_commercial.html" title="Move-In/Move-out">Commercial Clean</a></li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="about.html" title="ABOUT">
-												ABOUT
-											</a>
-                                    <a href="#" class="template-arrow-menu"></a>
+                                    <a href="contact.html" title="Contact">CONTACT</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- 3. MOBILE HAMBURGER ICON -->
+                <a href="#" class="mobile-menu-switch">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
+            </div>
+            <!--<div class="header clearfix">
+                    <div class="logo">
+                        <h1>
+                            <a href="index.html" title="Neato">
+                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
+                            </a>
+                        </h1>
+                        <div class="logo-clone">
+                            <h1>
+                                <a href="index.html" title="Neato">
+                                    <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                    <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="menu-container first-menu clearfix">
+                        <nav>
+                            <ul class="sf-menu">
+                                <li>
+                                    <a href="index.html" title="Home">
+											HOME
+										</a>
                                 </li>
                                 <li>
                                     <a href="service_calculator.html" title="Calculator">
-												CALCULATOR
-											</a>
+											CALCULATOR
+										</a>
                                 </li>
                                 <li>
                                     <a href="services.html" title="Services">
+											SERVICES
+										</a>
+                                    <ul>
+                                        <li>
+                                            <a href="service_house_cleaning.html" title="Standard Cleaning">
+													The Standard Cleaning
+												</a>
+                                        </li>
+                                        <li>
+                                            <a href="service_deep_clean.html" title="Deep Clean">
+													The Deep Clean
+												</a>
+                                        </li>
+                                        <li>
+                                            <a href="service_move_in_out.html" title="Move-In/Move-out">
+													The Move-In/Move-out Clean
+												</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="mobile-menu-container">
+                            <nav>
+                                <ul class="mobile-menu collapsible-mobile-submenus">
+                                    <li><a class="template-arrow-vertical-3" href="#">&nbsp;</a></li>
+                                    <li class="selected">
+                                        <a href="index.html" title="Home">
+												HOME
+											</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html" title="ABOUT">
+												ABOUT
+											</a>
+                                        <a href="#" class="template-arrow-menu"></a>
+                                    </li>
+                                    <li>
+                                        <a href="service_calculator.html" title="Calculator">
+												CALCULATOR
+											</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html" title="Services">
 												SERVICES
 											</a>
-                                    <a href="#" class="template-arrow-menu"></a>
+                                        <a href="#" class="template-arrow-menu"></a>
+                                        <ul>
+                                            <li>
+                                                <a href="service_house_cleaning.html" title="Standard Cleaning">
+													The Standard Cleaning
+												</a>
+                                            </li>
+                                            <li>
+                                                <a href="service_deep_clean.html" title="Deep Clean">
+													The Deep Clean
+												</a>
+                                            </li>
+                                            <li>
+                                                <a href="service_move_in_out.html" title="Move-In/Move-out">
+													The Move-In/Move-out Clean
+												</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html" title="Contact">
+												CONTACT
+											</a>
+                                        <a href="#" class="template-arrow-menu"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <h1>
+                            <a href="index.html" title="Neato">
+                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
+                            </a>
+                        </h1>-
+                        <div class="logo-clone">
+                            <h1>
+                                <a href="index.html" title="Neato">
+                                    <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
+                                    <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                    <a href="#" class="mobile-menu-switch">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </a>
+                    <div class="menu-container clearfix second-menu">
+                        <nav>
+                            <ul class="sf-menu">
+                                <li>
+                                    <a href="index.html" title="Home">
+											HOME
+										</a>
+                                </li>
+                                <li>
+                                    <a href="service_calculator.html" title="Calculator">
+											CALCULATOR
+										</a>
+                                </li>
+                                <li>
+                                    <a href="services.html" title="Services">
+											SERVICES
+										</a>
                                     <ul>
                                         <li>
                                             <a href="service_house_cleaning.html" title="Standard Cleaning">
@@ -152,60 +298,25 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact_2.html" title="Contact">
-												CONTACT
-											</a>
-                                    <a href="#" class="template-arrow-menu"></a>
+                                    <a href="about.html" title="About">
+											ABOUT
+										</a>
+                                </li>
+                                <li class="left-flyout">
+                                    <a href="contact.html" title="Contact">
+											CONTACT
+									</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                </div>
-                <div class="logo">
-                    <h1>
-                        <a href="index.html" title="Neato">
-                            <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
-                            <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
-                        </a>
-                    </h1>
-                    <div class="logo-clone">
-                        <h1>
-                            <a href="index.html" title="Neato">
-                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="secondary-logo" alt="logo">
-                                <img src="images/logo-neato.png" srcset="images/logo-neato.png" class="primary-logo" alt="logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-                <a href="#" class="mobile-menu-switch">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </a>
-                <div class="menu-container clearfix second-menu">
-                    <nav>
-                        <ul class="sf-menu">
-                            <li>
-                                <a href="about.html" title="About">
-											ABOUT
-										</a>
-                            </li>
-                            <li class="left-flyout">
-                                <a href="contact.html" title="Contact">
-											CONTACT
-									</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+                </div>-->
         </div>
         <div class="theme-page padding-bottom-100">
             <div class="row gray full-width page-header vertical-align-table">
                 <div class="row">
                     <div class="page-header-left">
-                        <h1>MOVE IN OUT</h1>
+                        <h1>MOVE-IN/MOVE-OUT CLEANING</h1>
                     </div>
                     <div class="page-header-right">
                         <div class="bread-crumb-container">
@@ -227,7 +338,7 @@
                                     &#47;
                                 </li>
                                 <li>
-                                    Move In Out
+                                    move-in/move-out Cleaning
                                 </li>
                             </ul>
                         </div>
@@ -239,38 +350,32 @@
                     <div class="column column-1-4">
                         <ul class="vertical-menu">
                             <li>
-                                <a href="service_house_cleaning.html" title="House Cleaning">
-										House Cleaning
+                                <a href="service_standard_cleaning.html" title="House Cleaning">
+										Standard Cleaning
 										<span class="template-arrow-horizontal-3"></span>
 									</a>
                             </li>
                             <li>
-                                <a href="service_post_renovation.html" title="Post Renovation">
-										Post Renovation
-										<span class="template-arrow-horizontal-3"></span>
-									</a>
-                            </li>
-                            <li>
-                                <a href="service_green_spaces_maintenance.html" title="Green Spaces Maintenance">
-										Green Spaces Maintenance
+                                <a href="service_deep_clean.html" title="Deep Cleaning">
+										Deep Cleaning
 										<span class="template-arrow-horizontal-3"></span>
 									</a>
                             </li>
                             <li class="selected">
-                                <a href="service_move_in_out.html" title="Move In Out Service">
-										Move In Out Service
+                                <a href="service_move_in_out.html" title="Move-in/move-out">
+										Move-in/move-out cleaning
 										<span class="template-arrow-horizontal-3"></span>
 									</a>
                             </li>
                             <li>
-                                <a href="service_commercial_cleaning.html" title="Commercial Cleaning">
+                                <a href="service_commercial.html" title="Commercial">
 										Commercial Cleaning
 										<span class="template-arrow-horizontal-3"></span>
 									</a>
                             </li>
                             <li>
-                                <a href="service_window_cleaning.html" title="Window Cleaning">
-										Window Cleaning
+                                <a href="service_extra.html" title="Extra">
+										Extra Services
 										<span class="template-arrow-horizontal-3"></span>
 									</a>
                             </li>
@@ -287,249 +392,190 @@
                                 </div>
                             </li>
                         </ul>
-                        <h6 class="box-header page-margin-top">DOWNLOAD</h6>
-                        <ul class="buttons margin-top-30">
-                            <li class="template-arrow-vertical-3">
-                                <a href="#" title="Brochure">Brochure</a>
-                            </li>
-                            <li class="template-arrow-vertical-3">
-                                <a href="#" title="Summary">Summary</a>
-                            </li>
-                        </ul>
                     </div>
                     <div class="column column-3-4">
                         <div class="row">
                             <div class="column column-1-2">
-                                <a href="images/samples/480x320/placeholder.jpg" class="prettyPhoto cm-preload" title="Move In Out">
-                                    <img src='images/samples/480x320/placeholder.jpg' alt='img'>
+                                <a href="images/Move_in_out_clean_1.jpg" class="prettyPhoto cm-preload" title="Commercial Cleaning">
+                                    <img src='images/Move_in_out_clean_1.jpg' alt='img'>
                                 </a>
                             </div>
                             <div class="column column-1-2">
-                                <a href="images/samples/870x580/placeholder.jpg" class="prettyPhoto cm-preload" title="Move In Out">
-                                    <img src='images/samples/480x320/placeholder.jpg' alt='img'>
+                                <a href="images/Move_in_out_clean_2.jpg" class="prettyPhoto cm-preload" title="Commercial Cleaning">
+                                    <img src='images/Move_in_out_clean_2.jpg' alt='img'>
                                 </a>
                             </div>
                         </div>
                         <div class="row page-margin-top">
                             <div class="column-1-1">
-                                <h3>SERVICE OVERVIEW</h3>
-                                <p class="description">Cleanmate opperates in Ottawa and provides a variety of cleaning services. Choose us because of our reputation for excellence. We provide proffesional cleaning services designed to keep your home sparkling and beautiful
-                                    so that you can focus on things that matter more to you.</p>
+                                <h3>SERVICE DETAILS</h3>
+                                <p class="description">Let’s be real. Moving is a pain. Packing your life into boxes takes a toll on your body and mind. And scrubbing the year-old pancake syrup off your kitchen cabinets is the last thing on your mind. With Neato Cleaning, you
+                                    can leave the fuss to us! Our Move- In/Move-Out cleaning service is the perfect solution to make your new space feel fresh and clean or to get your current home in tip top shape for the next tenant . Save that energy
+                                    for figuring out where to perfectly position the couch!</p>
+                                <p class="description">Our Move-in/Move-out cleaning service is designed to leave your home spotless and ready for your move. Our crew of trained cleaners will tackle every nook and cranny, from scrubbing the bathroom tiles to cleaning the inside
+                                    of the cabinets so you can rest easy knowing your home will be ready for the move. It’s as easy as Click. Tap. Clean in a Snap.</p>
                             </div>
                         </div>
+                        <h3 style="margin-bottom: 0px; margin-top: 20px;">What’s Included in NeatO’s Standard Clean?</h3>
                         <div class="row page-margin-top">
                             <div class="column column-1-2">
-                                <h4>WE GUARANTEE</h4>
-                                <p class="margin-top-14">Our continuous pursuit for perfection has resulted in consistent growth each year. Our focus is to listen to our clients, understand their needs and provide the exceptional level of residential and commercial cleaning services.</p>
-                                <p>If for any reason you aren't happy with our cleaning services please contact us. We will come back and clean the specific areas that didn't meet. In case you need a special cleaning service we are happy to fulfill every
-                                    request in order to exceed your expectations.</p>
-                            </div>
-                            <div class="column column-1-2">
-                                <h4>OUR MISSION</h4>
-                                <p class="margin-top-14">Founded in 1995 we became one of the leading providers of residential and commercial cleaning solutions in Canada and United States. Our mission is to:</p>
+                                <h4>KITCHEN</h4>
                                 <ul class="list margin-top-10">
-                                    <li class="template-tick-1">Deliver high quality and consistent services.</li>
-                                    <li class="template-tick-1">Use environmentall friendly cleaning products.</li>
-                                    <li class="template-tick-1">Provide stable jobs with resonable wages.</li>
-                                    <li class="template-tick-1">Concentrate our resources on maintaining standards.</li>
-                                    <li class="template-tick-1">Make you an extremely satisfied customer.</li>
+                                    <li class="template-tick-1">Clean and disinfect all counters, appliances, &amp; stovetop</li>
+                                    <li class="template-tick-1">Clean interior of microwave</li>
+                                    <li class="template-tick-1">Scrub of kitchen sink</li>
+                                    <li class="template-tick-1">Wipe down exterior of refrigerator (make sure to remove all your cute magnets if you want us to get under)</li>
+                                    <li class="template-tick-1">Wipe down exterior of cabinets and drawers</li>
+                                    <li class="template-tick-1">Clean all light fixtures, switches, handles, and knobs</li>
+                                    <li class="template-tick-1">MVacuum/Mop kitchen floors</li>
+                                    <li class="template-tick-1">Polish all stainless steel</li>
+                                    <li class="template-tick-1">Empty trash and replace trash bags</li>
+                                </ul>
+                            </div>
+                            <div class="column column-1-2">
+                                <h4>BEDROOMS &amp; COMMON SPACES</h4>
+                                <ul class="list margin-top-10">
+                                    <li class="template-tick-1">Move furniture (when possible), vacuum and clean under and behind.</li>
+                                    <li class="template-tick-1">Dust and wipe ceiling fans (reachable with step stool)</li>
+                                    <li class="template-tick-1">Detailed dusting and wiping all surfaces ( including dressers, nightstands, shelves, etc.) and visible belongings</li>
+                                    <li class="template-tick-1">Make the bed (We will change sheets if clean sheets are placed on bed)</li>
+                                    <li class="template-tick-1">Deep Vacuum of sofa/couch</li>
+                                    <li class="template-tick-1">Deep Vacuum/Steam Mop all floors</li>
+                                    <li class="template-tick-1">Clean mirrors and glass surfaces</li>
+                                    <li class="template-tick-1">Dusting baseboards</li>
+                                    <li class="template-tick-1">Empty trash</li>
+                                    <li class="template-tick-1">Wipe switch plates, switches, and door knobs</li>
+                                    <li class="template-tick-1">Dust and Wipe baseboards</li>
+                                    <li class="template-tick-1">Remove all visible cobwebs</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="divider page-margin-top"></div>
-                        <div class="row margin-top-30">
-                            <ul class="services-list services-icons clearfix">
-                                <li class="column column-1-3">
-                                    <span class="service-icon big features-credit-card tick"></span>
-                                    <h4>EASY PAYMENTS</h4>
-                                    <p>Easy payments via paypal or via credit card payment processing service.</p>
-                                </li>
-                                <li class="column column-1-3">
-                                    <span class="service-icon big features-pet tick"></span>
-                                    <h4>PET FRIENDLY</h4>
-                                    <p>We us pet friendly cleaners as your pet is a valued member of your family.</p>
-                                </li>
-                                <li class="column column-1-3">
-                                    <span class="service-icon big features-delivery tick"></span>
-                                    <h4>ALWAYS ON TIME</h4>
-                                    <p>Your time is important to us. We provide always on time cleaning service.</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="divider margin-top-27"></div>
                         <div class="row page-margin-top">
                             <div class="column column-1-2">
-                                <h3>POPULAR QUESTIONS</h3>
-                                <ul class="accordion margin-top-40 clearfix">
-                                    <li>
-                                        <div id="accordion-house-cleaning">
-                                            <h4>How many people will come to clean my house?</h4>
-                                        </div>
-                                        <div class="clearfix">
-                                            <p>What makes Cleanmate trusted above other cleaning service providers? When you combine higher standards, smarter strategies and superior quality all in one package, the result is top notch.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div id="accordion-present-for-cleaning">
-                                            <h4>Do I have to be present for a cleaning?</h4>
-                                        </div>
-                                        <div class="clearfix">
-                                            <p>What makes Cleanmate trusted above other cleaning service providers? When you combine higher standards, smarter strategies and superior quality all in one package, the result is top notch.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div id="accordion-how-long">
-                                            <h4>How long will it take to clean my house?</h4>
-                                        </div>
-                                        <div class="clearfix">
-                                            <p>What makes Cleanmate trusted above other cleaning service providers? When you combine higher standards, smarter strategies and superior quality all in one package, the result is top notch.</p>
-                                        </div>
-                                    </li>
+                                <h4 style="margin-top: 10px;">BATHROOMS</h4>
+                                <ul class="list margin-top-10">
+                                    <li class="template-tick-1">Scrub and disinfect sinks, toilets, and showers/tubs</li>
+                                    <li class="template-tick-1">Clean light fixtures, switches, handles, and knobs</li>
+                                    <li class="template-tick-1">VClean mirrors</li>
+                                    <li class="template-tick-1">Wipe down exterior of cabinets</li>
+                                    <li class="template-tick-1">Vacuum/Mopping of bathroom floors</li>
+                                    <li class="template-tick-1">Dust baseboards</li>
+                                    <li class="template-tick-1">Dust window sills</li>
                                 </ul>
                             </div>
-                            <div class="column column-1-2">
-                                <h3>PLAN PRICING</h3>
-                                <table class="margin-top-40 gray-first">
-                                    <tbody>
-                                        <tr>
-                                            <td>Carpet cleaning</td>
-                                            <td>$25 - $150</td>
-                                        </tr>
-                                        <tr>
-                                            <td>End of tenancy cleaning</td>
-                                            <td>$25 - $200</td>
-                                        </tr>
-                                        <tr>
-                                            <td>House cleaning</td>
-                                            <td>$125</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Upholstery cleaning</td>
-                                            <td>From $40 / item</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Domestic cleaning</td>
-                                            <td>From $75 / day</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Office cleaning</td>
-                                            <td>$199 per cleaning</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Other cleaning</td>
-                                            <td>$125 - $275</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
                         </div>
+                        <div class="divider margin-top-15"></div>
+                        <p class="description">NeatO’s move out cleaning service can help customers save more of their security deposit by ensuring that their rental property is left in top-notch condition. Our team will leave your home in great shape, ensuring that it meets
+                            the standards required by landlords and property managers. By hiring NeatO, you can avoid the risk of losing a portion of your security deposit due to cleaning issues, saving you both time and money.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row dark footer-row full-width padding-top-30">
-            <div class="row padding-bottom-33">
-                <div class="column column-1-3">
-                    <ul class="contact-details-list">
-                        <li class="features-phone">
-                            <label>CALL US TODAY</label>
-                            <p><a href="tel:+1 905-922-5633">+1 905-922-5633</a></p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column column-1-3">
-                    <ul class="contact-details-list">
-                        <li class="features-map">
-                            <label>ONTARIO</label>
-                            <p>OSHAWA</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column column-1-3">
-                    <ul class="contact-details-list">
-                        <li class="features-wallet">
-                            <label>ESTIMATE YOUR COSTS</label>
-                            <p><a href="service_calculator.html" title="Online Service Calculator">Online Calculator</a></p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row dark-gray footer-row full-width padding-top-61 padding-bottom-36">
-            <div class="row row-4-4">
-                <div class="column column-1-4">
-                    <h6>ABOUT US</h6>
-                    <p class="margin-top-23">At Neat-O Cleaning Services, we believe that a clean space is more than just a tidy environment—it’s a place where you can feel comfortable, productive, and at peace.</p>
-                    <div class="margin-top-37 padding-bottom-16">
-                        <a class="more gray" href="about.html" title="Learn more">Learn more</a>
-                    </div>
-                </div>
-                <div class="column column-1-4">
-                    <h6>OUR SERVICES</h6>
-                    <ul class="list margin-top-31">
-                        <li class="template-arrow-horizontal-2"><a href="service_standard_clean.html" title="Commercial Cleaning">The Standard Cleaning</a></li>
-                        <li class="template-arrow-horizontal-2"><a href="service_deep_clean.html" title="Deep Cleaning">The Deep Cleaning</a></li>
-                        <li class="template-arrow-horizontal-2"><a href="service_move_in_out.html" title="Move In Out Service">Move In/Out Service</a></li>
-                    </ul>
-                </div>
-                <div class="column column-1-4">
-                    <h6>Quick Links</h6>
-                    <ul class="latest-post margin-top-42">
-                        <li>
-                            <a href="index.html" title="Home">Home</a>
-                        </li>
-                        <li>
-                            <a href="service_calculator.html" title="Calculator">Calculator</a>
-                        </li>
-                        <li>
-                            <a href="services.html" title="Services">Services</a>
-                        </li>
-                        <li>
-                            <a href="about.html" title="About">About</a>
-                        </li>
-                        <li>
-                            <a href="contact_2.html" title="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column column-1-4">
-                    <h6>CONTACT INFO</h6>
-                    <ul class="contact-data margin-top-20">
-                        <li class="template-location">
-                            <div class="value">Oshawa, Ontario</div>
-                        </li>
-                        <li class="template-mobile">
-                            <div class="value"><a href="tel:2507257052">+1 905-922-5633</a></div>
-                        </li>
-                        <li class="template-email">
-                            <div class="value"><a href="mailto:office@neatocleaning.ca">office@neatocleaning.ca</a></div>
-                        </li>
-                        <li class="template-clock">
-                            <div class="value">Mon-Fri: 09.00 am - 05.00 pm</div>
-                        </li>
-                        <li class="template-clock">
-                            <div class="value">Saturday, Sunday: closed</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row page-padding-top">
-                <ul class="social-icons align-center">
-                    <li>
-                        <a target="_blank" href="mailto:office@neatocleaning.ca" class="social-email" title="email"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=61593206274145" class="social-facebook" title="facebook"></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/neato_cleanings/" class="social-instagram" title="instagram"></a>
+    </div>
+    <div class="row dark footer-row full-width padding-top-30">
+        <div class="row padding-bottom-33">
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="features-phone">
+                        <label>CALL US TODAY</label>
+                        <p><a href="tel:+1 905-922-5633">+1 905-922-5633</a></p>
                     </li>
                 </ul>
             </div>
-            <div class="row align-center padding-top-30">
-                <span class="copyright">© Copyright 2026 NeatO Cleaning Services</span>
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="features-map">
+                        <label>OSHAWA</label>
+                        <p>49 Kenneth Ave</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="column column-1-3">
+                <ul class="contact-details-list">
+                    <li class="features-wallet">
+                        <label>ESTIMATE YOUR COSTS</label>
+                        <p><a href="service_calculator.html" title="Online Service Calculator">Online Calculator</a></p>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
+    <div class="row dark-gray footer-row full-width padding-top-61 padding-bottom-36">
+        <div class="row row-4-4">
+            <div class="column column-1-4">
+                <h6>ABOUT US</h6>
+                <p class="margin-top-23">At Neat-O Cleaning Services, we believe that a clean space is more than just a tidy environment—it’s a place where you can feel comfortable, productive, and at peace.</p>
+                <div class="margin-top-37 padding-bottom-16">
+                    <a class="more gray" href="about.html" title="Learn more">Learn more</a>
+                </div>
+            </div>
+            <div class="column column-1-4">
+                <h6>OUR SERVICES</h6>
+                <ul class="list margin-top-31">
+                    <li class="template-arrow-horizontal-2"><a href="service_standard_clean.html" title="Standard Cleaning">The Standard Cleaning</a></li>
+                    <li class="template-arrow-horizontal-2"><a href="service_deep_clean.html" title="Deep Cleaning">The Deep Cleaning</a></li>
+                    <li class="template-arrow-horizontal-2"><a href="service_move_in_out.html" title="Move In Out Service">Move In/Out Service</a></li>
+                    <li class="template-arrow-horizontal-2"><a href="service_commercial.html" title="Commercial Clean">Commercial Cleaning</a></li>
+                </ul>
+            </div>
+            <div class="column column-1-4">
+                <h6>Quick Links</h6>
+                <ul class="latest-post margin-top-42">
+                    <li>
+                        <a href="index.html" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="service_calculator.html" title="Calculator">Calculator</a>
+                    </li>
+                    <li>
+                        <a href="services.html" title="Services">Services</a>
+                    </li>
+                    <li>
+                        <a href="about.html" title="About">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" title="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column column-1-4">
+                <h6>CONTACT INFO</h6>
+                <ul class="contact-data margin-top-20">
+                    <li class="template-location">
+                        <div class="value">49 Kenneth Ave, Oshawa, ON L1G 5N3</div>
+                    </li>
+                    <li class="template-mobile">
+                        <div class="value"><a href="tel:2507257052">+1 905-922-5633</a></div>
+                    </li>
+                    <li class="template-email">
+                        <div class="value"><a href="mailto:office@neatocleaning.ca">office@neatocleaning.ca</a></div>
+                    </li>
+                    <li class="template-clock">
+                        <div class="value">Mon-Fri: 09.00 am - 05.00 pm</div>
+                    </li>
+                    <li class="template-clock">
+                        <div class="value">Saturday, Sunday: closed</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row page-padding-top">
+            <ul class="social-icons align-center">
+                <li>
+                    <a target="_blank" href="mailto:office@neatocleaning.ca" class="social-email" title="email"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61593206274145" class="social-facebook" title="facebook"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/neato_cleanings/" class="social-instagram" title="instagram"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="row align-center padding-top-30">
+            <span class="copyright">© Copyright 2026 NeatO Cleaning Services</span>
+        </div>
+    </div>
     </div>
     <a href="#top" class="scroll-top animated-element template-arrow-vertical-3" title="Scroll to top"></a>
     <div class="background-overlay"></div>
